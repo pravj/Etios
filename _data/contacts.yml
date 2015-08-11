@@ -1,0 +1,19 @@
+- service: GitHub
+  address: https://github.com/pravj
+  icon: ion-social-github
+
+- service: Twitter
+  address: https://twitter.com/hackpravj
+  icon: ion-social-twitter
+
+- service: HackerNews
+  address: https://news.ycombinator.com/user?id=pravj
+  icon: ion-social-hackernews
+
+- service: LinkedIn
+  address: https://www.linkedin.com/in/pravj
+  icon: ion-social-linkedin
+
+- service: Instagram
+  address: https://instagram.com/pravj
+  icon: ion-social-instagram-outline

@@ -1,0 +1,69 @@
+---
+layout: null
+title: Tags
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include navbar.html %}
+
+    <div class="divider"></div>
+    <div class="divider"></div>
+
+    <div class="container post-content" style="margin-top:40px;">
+      {% for tag in page.tagdata %}
+        <div id="{{ tag[0] | downcase | replace:' ','-' | replace: '.','-' }}" class="tag tag-invisible">
+          <h5><span class="ion-ios-pricetag-outline"></span>&nbsp;&nbsp;&nbsp;{{ tag[0] }}</h5>
+          <div class="divider"></div>
+          <ul>
+          	{% for post in tag[1].content %}
+          	<li>
+          		<h6><a href="{{ post.url }}">{{ post.title }}</a></h6>
+          	</li>
+          	{% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="container hide-on-small-only">
+      <h5 style="margin-bottom:10px;margin-top:40px;color:#000000;"><span class="ion-ios-pricetags-outline"></span>&nbsp;&nbsp;&nbsp;All tags</h5>
+      <div class="divider"></div>
+      <div class="row" style="margin-left:0px;">
+        {% for tag in page.tagdata %}
+          <span style="margin-right:10px;font-size:{{ tag[1].content.size | times:5 | plus:'15' }}px;"><a style="color:#{{ tag[1].color }};" href="#{{ tag[0] | downcase | replace:' ','-' | replace: '.','-' }}">{{ tag[0] }}</a></span>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="container hide-on-med-and-up">
+      <h5 style="margin-bottom:10px;margin-top:40px;color:#000000;"><span class="ion-ios-pricetags-outline"></span>&nbsp;&nbsp;&nbsp;All tags</h5>
+      <div class="divider"></div>
+      <div class="row" style="margin-left:0px;">
+        {% for tag in page.tagdata %}
+          <span style="margin-right:10px;font-size:{{ tag[1].content.size | times:3 | plus:'10' }}px;"><a style="color:#{{ tag[1].color }};" href="#{{ tag[0] | downcase | replace:' ','-' | replace: '.','-' }}">{{ tag[0] }}</a></span>
+        {% endfor %}
+      </div>
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+      var id = document.location.hash.replace('#', '');
+      $('#' + id).removeClass('tag-invisible');
+
+      function updateContent() {
+        $('.tag').addClass('tag-invisible');
+
+        var id = document.location.hash.replace('#', '');
+        $('#' + id).removeClass('tag-invisible');
+      };
+
+      window.onhashchange = updateContent;
+    </script>
+
+    {% include analytics.html %}
+  </body>
+</html>

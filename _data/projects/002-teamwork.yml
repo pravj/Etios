@@ -1,0 +1,21 @@
+title: teamwork
+index: 2
+description: Organization's Contribution Dashboard &#58; GitHub Data Challenge 3
+tags:
+  - Data Science
+  - Visualization
+  - GitHub
+content:
+  <p>
+    <i>teamwork</i> was the first Data related big thing of mine, I had this pinch to work on something in the GitHub Data Challenge, and the dream got completed with the <i>teamwork</i>.
+  </p>
+
+  <p>
+    I worked on it with one of my friend <a href="#">Nairitya Khilari</a>, although it wasn't the logic behing its nomenclature.
+  </p>
+
+  <p>
+    <i>teamwork</i> was a dashboard for organizations on GitHub, where you can see analytics that you don't get to see in general. It had a aggregated <i>GitHub Contribution Calendar</i>, per user contribution to the organization, member and repository based leaderboards and similar features.
+  </p>
+
+  <iframe src="https://ghbtns.com/github-btn.html?user=pravj&repo=teamwork&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>

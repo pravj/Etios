@@ -1,0 +1,86 @@
+---
+layout: section
+title: About
+tagline: About me, writing this takes most of the time.
+image: https://ssl.gstatic.com/ui/v1/icons/mail/images/2/5/android/bg.png
+---
+
+<div class="row" style="position:relative;top:20px;margin-bottom:50px;">
+  <div class="col s1 quote-icon">
+    <span class="ion-quote"></span>
+  </div>
+
+  <div class="col s11" style="color:#A4B4C4;">
+    Everyday I see plenty of extraordinary things around me, want to develop some and help people.
+  </div>
+</div>
+
+<p>
+  Oh Hello!
+</p>
+
+<p>
+  As the navigation bar says, my name is Pravendra Singh. I have a keen interest in solving real life problems with <i>For loops</i>.
+</p>
+
+<p>
+  Although I don't follow a discriminative path but if you want me to categorize it, I'm interested in <i>Data Science</i>, <i>Information Retrieval</i>, <i>Programming Languages</i>, <i>Distributed Systems</i> and everything else in the universe including <i>Pan Pizzas</i>.
+</p>
+
+<p>
+  Whenever I'm not hitting my system's keypad, I can be found doing anything. For example, travelling through the vast repository of repositories in <a target="_blank" title="GitHub" href="https://github.com/pravj">GitHub</a> or <a target="_blank" title="Instagram" href="https://instagram.com/pravj">clicking random stuffs</a> around me, if my phone's battery permits or collecting tones <a target="_blank" title="SoundCloud" href="https://soundcloud.com/pravj/likes">here</a> and <a target="_blank" title="YouTube" href="https://www.youtube.com/playlist?list=PL5hSueDZEA0FsDlDeAtBLYAHyr4-dlr9u">there</a>.
+</p>
+
+<p>
+  Other than <i>Computer Science</i> and random human stuffs, I'm passionate about <i>Space Science</i> and <i>Aeronautics</i>. I don't miss a single opportunity to get a glance of <i>Internation Space Station</i>. You too can subscribe at <a target="_blank" title="NASA" href="http://spotthestation.nasa.gov/">Spot The Station</a>, if you want to see <i>ISS</i> hovering above your air space.
+</p>
+
+<p>
+  And yeah, I forgot to tell you, I can attempt poems also, usually I write them when I'm drunk with water. You can head to my Quora blog <a target="_blank" title="Quora" href="http://randomlygeneratedthoughts.quora.com/">Random Thought Generator</a>, if you want to read them.
+</p>
+
+<div class="section">
+  <h5 class="section-heading">Ingredients</h5>
+  <blockquote class="section-tag">How did I cook this?</blockquote>
+
+  <p>
+    This site is built on top of <a href="http://jekyllrb.com">Jekyll</a>, and hosted on <a href="https://pages.github.com">GitHub Pages</a>. You are free to use this Jekyll theme, named <a href="https://github.com/pravj/etios">Etios</a>. Thank me later.
+  </p>
+
+  <p>
+    Deep down it uses the <a href="http://materializecss.com/">Materialize framework</a> to arrange things. These beautiful icons are powered by <a href="http://ionicons.com/">ionicons</a>.
+  </p>
+
+  <p>
+    If you are browsing in a bigger device, you can see banner images for all those sections in the navigation bar, they are sponsored by <a href="http://www.pexels.com/">Pexels</a> under <b>CC0 License</b>.
+  </p>
+
+  <p>
+    Once you have all that, you just need to mix them up and fry in a pan for 20 minutes. That's it.
+  </p>
+
+  <p>
+    If you are still uncomfortable with it, check out my food blog for this particular dish. <a href="#">A little paint over my webspace.</a>
+  </p>
+</div>
+
+<div class="section">
+  <h5 class="section-heading">Residence</h5>
+  <blockquote class="section-tag">My properties across the Holy Internet.</blockquote>
+
+  <div class="row">
+    <div class="col s12 social-presence-icons">
+      <ul>
+        {% for contact in site.data.contacts %}
+        <li>
+          <a target="_blank" title="{{contact.service}}" href="{{contact.address}}"><span class="{{contact.icon}}"></span></a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <p class="social-email" title="I guess, people would still be able to scrap this.">
+    <b>hackpravj</b> [at] <b>gmail</b> [dot] <b>com</b>
+  </p>
+</div>

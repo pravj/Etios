@@ -1,0 +1,35 @@
+---
+layout: section
+title: Projects
+tagline: Projects, out of thin air.
+description: I nurture my secret chores in the <i>~/projects/</i> directory. Right now, when I'm writing this, I have 99 things in there. These projects are set of programs for those random things I get in my mind. Even I was lucky enough to suggest my intern project, and get permission to work on it.</br></br>You can head over to <a target="_blank" href="https://github.com/pravj" title="GitHub">GitHub</a>, if you want to see all of my projects that managed to get out of that directory.
+image: https://ssl.gstatic.com/ui/v1/icons/mail/images/2/5/android/bg.png
+---
+
+<ul>
+  {% for project in page.projectdata %}
+  <li id="{{ project[1].title | downcase | replace:' ','-' | replace: '.','-' }}">
+    <div class="row">
+      <div class="col s12">
+        <h5><a href="#">{{ project[1].title }}</a></h5>
+      </div>
+
+      <div class="col s12 section-heading">
+        <h6><span class="ion-quote"></span>&nbsp;&nbsp;&nbsp;{{ project[1].description }}</h6>
+      </div>
+
+      <div class="col s12 article-tags section-description">
+        <ul>
+          {% for tag in project[1].tags %}
+          <li><span class="ion-ios-pricetag-outline"></span>&nbsp;{{ tag }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col s12">
+        {{ project[1].content }}
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,17 @@
+title: Doga
+index: 3
+description: HTTP log monitoring console for Humans
+tags:
+  - Networking
+  - Sockets
+  - Python
+content:
+  <p>
+    Working on the <i>Doga</i> was the one of the best things to me, I still remember that week.
+  </p>
+
+  <p>
+    <i>Doga</i> was the assignment given to me for an intern position at <a target="_blank" title="Datadog" href="https://www.datadoghq.com/">Datadog</a>. Without continuing the mistery, I got the internship offer after it. Although I got unlucky later, and unable to get through the visa process, so had to leave the internship.
+  </p>
+
+  <iframe src="https://ghbtns.com/github-btn.html?user=pravj&repo=Doga&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>

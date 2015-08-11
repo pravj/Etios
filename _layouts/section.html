@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+  <body>
+    {% include navbar.html %}
+
+    <div class="divider"></div>
+
+    {% assign section = site.data.banners[page.title] %}
+    {% if page.title == 'Projects' %}
+      <div class="hide-on-med-and-down" style="background-image:url({{ site.url }}/assets/banners/{{ section.image }});height:200px;background-repeat:repeat-x;">
+      </div>
+    {% else %}
+      <div class="hide-on-med-and-down" style="background-image:url({{ site.url }}/assets/banners/{{ section.image }});height:200px;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-position:center;">
+      </div>
+    {% endif %}
+
+    <div class="divider"></div>
+
+    <div class="container">
+      <div class="section">
+        <h5 class="section-heading">{{ page.title }}</h5>
+        <blockquote class="section-tag">{{ page.tagline }}</blockquote>
+      </div>
+
+      {% if page.destination != 'null' %}
+        <p class="section-description">
+          {{ page.description | newline_to_br }}
+        </p>
+      {% endif %}
+
+      <div class="divider"></div>
+
+      {{ content }}
+    </div>
+
+    {% include analytics.html %}
+
+  </body>
+</html>

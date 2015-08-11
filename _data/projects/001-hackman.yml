@@ -1,0 +1,24 @@
+title: Hackman
+index: 1
+description: Hackathon managers for Humans
+tags:
+  - Golang
+  - Gopher Gala
+  - Hackathon
+  - Y Combinator
+content:
+  <p>
+    It was cold January of 2015, people were tweeting about the first ever Gopher Gala. And there is no second thought on my love for the language. So I managed to form a team with two of my friends and started looking for an idea.
+  </p>
+
+  <p>
+    As I had no experience in developing a web application with Go, before the event, I worked on a sample application to learn the Beego framework. You can have a look at the application here, <a href="https://github.com/Gomob/beehub">beehub</a>, it was a GitHub Oauth application in Beego.
+  </p>
+
+  <p>
+    Hackman was supposed to have features that would solve all the problems, right from the creating a hackathon, publising it and finilising the results. During the event, I talked with one of the Gopher Gala organizer and he loved the idea, he even asked us to add some additional features.
+  </p>
+
+  <p>
+    Although we weren't able to complete the entire thing in the small time period the hackathon, later we also dreamed of having Hackman as a Y Combinator company.
+  </p>

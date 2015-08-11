@@ -1,0 +1,16 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# custom plugins
+plugins:          ./_plugins
+
+source:      .
+destination: ./_site
+
+timezone: Asia/Calcutta
+
+url: //pravj.github.io

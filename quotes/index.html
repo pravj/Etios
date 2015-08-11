@@ -1,0 +1,27 @@
+---
+layout: section
+title: Quotes
+tagline: Sayings, that can inspire you.
+description: While collecting inspiring things from people around me, I go in an unhurried way. The collection is not actually limited to computer programming et al. I have collected them from the Internet, songs I listen, books I read, real humans and what not.
+image: https://ssl.gstatic.com/ui/v1/icons/mail/images/2/5/android/bg.png
+---
+
+<ul>
+  {% for quote in site.data.quotes %}
+    <li>
+      <div class="row">
+        <div class="col s1 quote-icon">
+          <span class="ion-quote"></span>
+        </div>
+
+        <div class="col s11">
+          {{ quote.content }}
+        </div>
+
+        <div class="col s11 offset-s1">
+          <span class="quote-author">- {{ quote.author }}</span>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
