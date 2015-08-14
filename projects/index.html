@@ -2,7 +2,7 @@
 layout: section
 title: Projects
 tagline: Projects, out of thin air.
-description: I nurture my secret chores in the <i>~/projects/</i> directory. Right now, when I'm writing this, I have 99 things in there. These projects are set of programs for those random things I get in my mind. Even I was lucky enough to suggest my intern project, and get permission to work on it.</br></br>You can head over to <a target="_blank" href="https://github.com/pravj" title="GitHub">GitHub</a>, if you want to see all of my projects that managed to get out of that directory.
+description: I nurture my secret chores in the <i>~/projects/</i> directory. Right now, when I'm writing this, I have 99 things in there. Joincidence with a C.</br></br>You can head over to <a target="_blank" href="https://github.com/pravj" title="GitHub">GitHub</a>, if you want to see all of my projects that managed to get out of that directory.
 image: https://ssl.gstatic.com/ui/v1/icons/mail/images/2/5/android/bg.png
 ---
 
@@ -25,6 +25,10 @@ image: https://ssl.gstatic.com/ui/v1/icons/mail/images/2/5/android/bg.png
           {% endfor %}
         </ul>
       </div>
+
+      {% if project[1].image != null %}
+      <img style="position:relative;top:15px;margin-bottom:15px;" class="materialboxed" data-caption="{{ project[1].title }}" alt="{{ project[1].title }}" src="http://localhost:4000/assets/project-images/{{ project[1].image }}"/>
+      {% endif %}
 
       <div class="col s12">
         {{ project[1].content }}

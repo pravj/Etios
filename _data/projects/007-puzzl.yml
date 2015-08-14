@@ -1,0 +1,30 @@
+title: Puzzl
+index: 7
+description: Intelligent version of the classical sliding-puzzle game for terminals
+tags:
+  - Golang
+  - Concurrency
+  - Combinatorics
+  - arXiv
+image: puzzl.gif
+content:
+  <p>
+    Puzzl is an advance version of the classical sliding puzzle game, built with Go, to be played in terminals. If you want to read, I have also written an article about its development, <a href="#">Development story of the puzzl</a>.
+  </p>
+
+  <p>
+    When I got the wave to work on it, my main motive was to play with the Goroutines and Channels in Go. Later I got a secret inspiration to work on it, and I ended up completing it in a format, which was good looking, at least to me.
+  </p>
+
+  <p>
+    I have also written a paper on it, which is on the arXiv by Cornell University.
+  </p>
+
+  <p class="section-description">
+    "Implementing an intelligent version of the classical sliding-puzzle game for unix terminals using Golang's concurrency primitives."
+  </p>
+
+  <span>
+    <a class="waves-effect waves-light btn"><span class="ion-document-text"></span>&nbsp;Read on arXiv</a>
+    <iframe src="https://ghbtns.com/github-btn.html?user=pravj&repo=puzzl&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px" style="position:relative;top:11px;margin-left:15px;"></iframe>
+  </span>
