@@ -27,7 +27,7 @@ image: https://ssl.gstatic.com/ui/v1/icons/mail/images/2/5/android/bg.png
       </div>
 
       {% if project[1].image != null %}
-      <img style="position:relative;top:15px;margin-bottom:15px;" class="materialboxed" data-caption="{{ project[1].title }}" alt="{{ project[1].title }}" src="http://localhost:4000/assets/project-images/{{ project[1].image }}"/>
+      <img style="position:relative;top:15px;margin-bottom:15px;" class="materialboxed" data-caption="{{ project[1].title }}" alt="{{ project[1].title }}" src="{{ site.url }}/assets/project-images/{{ project[1].image }}"/>
       {% endif %}
 
       <div class="col s12">
