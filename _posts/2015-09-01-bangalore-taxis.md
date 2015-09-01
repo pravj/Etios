@@ -161,7 +161,7 @@ r.db('taxis').table('datacenter')
 
 Neighbourhoods having maximum availability index are mostly in the *northern-western* and a little *central* part of the bangalore. Which consists of some big educational institutes as *Indian Institute of Science*, *Bangalore University*, *R.V. College of Engineering*, some famous tourist spots as *Lalbagh Botanical Garden* to contribute to the higher availability density.
 
-Along with that, reports shows that *northern-western* bangalore has maximum population density in the city. Check out these images ([latest](http://wgbis.ces.iisc.ernet.in/biodiversity/pubs/ETR/ETR55/Population%20Density.jpg) and [old](http://wgbis.ces.iisc.ernet.in/biodiversity/pubs/ces_tr/TR118_SPoonancha/Index1_clip_image002_0000.jpg)) from *Centre for Ecological Sciences, IISc* for the reference.
+Along with that, reports shows that *northern-western* bangalore has maximum population density in the city. Check out these images (<a href="http://wgbis.ces.iisc.ernet.in/biodiversity/pubs/ETR/ETR55/Population%20Density.jpg" target="_blank">latest</a> and <a href="http://wgbis.ces.iisc.ernet.in/biodiversity/pubs/ces_tr/TR118_SPoonancha/Index1_clip_image002_0000.jpg" target="_blank">old</a>) from *Centre for Ecological Sciences, IISc* for the reference.
 
 ### Cab that travelled the most
 
@@ -191,7 +191,7 @@ To watch the jounrney *time-lapse* of the cab who travelled the most, press the 
 	</h2>
 </div>
 
-### Is this all fake, just like Uber?
+### Is this all fake, just like Uber illusion?
 
 Do you remember those *phantom car* stories of Uber?
 
@@ -209,7 +209,7 @@ I realised that there wasn't any fluctuation in the *response time*, it was same
 
 A nice explanation of the *phantom cars* is available [here](http://motherboard.vice.com/read/Ubers-phantom-cabs?update).
 
-### You solve a problem, when you get one
+### People don't solve a problem until they get one
 
 Let me insert a story here.
 
