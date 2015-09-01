@@ -1,6 +1,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
 
   <meta name="description" content="Pravendra Singh">
 
@@ -58,6 +59,12 @@
   {% if page.title == 'Projects'  %}
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+  {% endif %}
+
+  {% if page.title == 'Jump in to ride all the Bangalore taxis, at once' %}
+  <script src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+  <link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-heat/v0.1.3/leaflet-heat.js'></script>
   {% endif %}
 
   <title>Pravendra Singh</title>
