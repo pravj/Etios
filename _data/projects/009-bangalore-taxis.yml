@@ -1,0 +1,25 @@
+title: Jump in to ride all the Bangalore taxis, at once
+index: 9
+description: Tracking all the taxis in Bangalore by a particular taxi aggregator service
+tags:
+  - Data Science
+  - Information Retrieval
+  - Architecture
+image: taxis.png
+content:
+  <p>
+    How many UBER cars are there around you, 5 to 7? OR How many such cars in there in your city right now?
+  </p>
+
+  </p>
+    Yeah, these questions are interesting. So, I spent some time solving them and you can read
+    the journey in my post <a target="_blank" title="Bangalore Taxis" href="">Jump in to ride all the Bangalore taxis, at once</a>.
+  </p>
+
+  <p>
+    I started with devising a way to collect the information while trying my best to not get caught. Once I had the data, rest is all intuitions.
+  </p>
+    
+  <p>
+    The report contains some engaging things like the 'geological mapping of the cabs', 'timeline when the probability of finding a cab is higher' and 'activity of a particular taxi throughout the day' etc.
+  </p>
