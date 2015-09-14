@@ -25,6 +25,6 @@ content:
   </p>
 
   <span>
-    <a class="waves-effect waves-light btn"><span class="ion-document-text"></span>&nbsp;Read on arXiv</a>
+    <a class="waves-effect waves-light btn" target="_blank" href="http://arxiv.org/abs/1503.08345"><span class="ion-document-text"></span>&nbsp;Read on arXiv</a>
     <iframe src="https://ghbtns.com/github-btn.html?user=pravj&repo=puzzl&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px" style="position:relative;top:11px;margin-left:15px;"></iframe>
   </span>
