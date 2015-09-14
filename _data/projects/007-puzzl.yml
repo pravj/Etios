@@ -9,7 +9,7 @@ tags:
 image: puzzl.gif
 content:
   <p>
-    Puzzl is an advance version of the classical sliding puzzle game, built with Go, to be played in terminals. If you want to read, I have also written an article about its development, <a href="#">Development story of the puzzl</a>.
+    Puzzl is an advance version of the classical sliding puzzle game, built with Go, to be played in terminals. If you want to read, I have also written an article about its development, <a target="_blank" title="puzzl story" href="http://pravj.github.io/blog/development-story-of-puzzl/">Development story of the puzzl</a>.
   </p>
 
   <p>

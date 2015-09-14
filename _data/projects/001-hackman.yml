@@ -12,7 +12,7 @@ content:
   </p>
 
   <p>
-    As I had no experience in developing a web application with Go, before the event, I worked on a sample application to learn the Beego framework. You can have a look at the application here, <a href="https://github.com/Gomob/beehub">beehub</a>, it was a GitHub Oauth application in Beego.
+    As I had no experience in developing a web application with Go, before the event, I worked on a sample application to learn the Beego framework. You can have a look at the application here, <a target="_blank" title="beehub" href="https://github.com/Gomob/beehub">beehub</a>, it was a GitHub Oauth application in Beego.
   </p>
 
   <p>

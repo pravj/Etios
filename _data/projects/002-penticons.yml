@@ -7,7 +7,7 @@ tags:
 image: penticons.png
 content:
   <p>
-    All this started when I was figuring out a way to <i>reverse map</i> default user avatars on GitHub. Those avatars are images, that looks like a 5x5 matrix, symmetric along the vertical axis. For example, check this out for my username, <a href="https://github.com/identicons/pravj.png">pravj</a>.
+    All this started when I was figuring out a way to <i>reverse map</i> default user avatars on GitHub. Those avatars are images, that looks like a 5x5 matrix, symmetric along the vertical axis. For example, check this out for my username, <a target="_blank" title="GitHub Identicon" href="https://github.com/identicons/pravj.png">pravj</a>.
   </p>
 
   <p>
@@ -19,7 +19,7 @@ content:
   </p>
 
   <p>
-    Take a look at <a href="/blog/penticons-the-hash-game/">Introducing Penticons &#58; The Hash Game</a> for the development story of Penticons. <a target="_blank" href="https://github.com/penticons" title="Penticons">Penticons</a> hosts all the implementations of it in different programming languages.
+    Take a look at <a target="_blank" title="Penticons the hash game" href="/blog/penticons-the-hash-game/">Introducing Penticons &#58; The Hash Game</a> for the development story of Penticons. <a target="_blank" href="https://github.com/penticons" title="Penticons">Penticons</a> hosts all the implementations of it in different programming languages.
   </p>
 
   <iframe src="https://ghbtns.com/github-btn.html?user=penticons&repo=penticons.go&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
