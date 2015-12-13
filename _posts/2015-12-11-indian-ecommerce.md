@@ -205,6 +205,12 @@ Although I have said that I won't conclude results from this data, but I guess w
 
 As the number of Internet users is growing in the country, we can expect more good to happen.
 
+### Probable Fix
+ 
+I think a simple solution can be employed here to avoid intruders.
+
+To ask for the associated *mobile number* while checking details of an order, if the user is not logged in. One can guess the *unique id* for orders but not the *mobile number*.
+
 ### Disclaimer
 
 This is going to be a little contradictory. According to Oxford Dictionary, *Disclaimer* means "*A statement that denies something, especially responsibility*".
