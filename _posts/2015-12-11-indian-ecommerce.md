@@ -45,7 +45,7 @@ As I couldn't take a risk of losing the data, I designed my solution around it. 
 
 *Engine* is the one who takes care of the identifier generation and distribution. It uses a little *group theory* and *anagram properties* to generate *non-sequential unique identifiers of fixed length*. It generates them in advance and serve you *on demand* while taking care of the stock by generating in the background when you start approaching the bottom of the vessel. To know more about *Engine*, you can stalk its [repository](https://github.com/pravj/engine).
 
-*Station* is a Node.js package(*private obviously*) running a *Nightmare* instance for *headless browsing*. From *station*, it collects the next set of identifiers to fetch and then assemble all the necessary information beforing shipping it to the storage.
+*Station* is a Node.js package(*private obviously*) running a *Nightmare* instance for *headless browsing*. From *Engine*, it collects the next set of identifiers to fetch and then assemble all the necessary information before shipping it to the storage.
 
 ![crawler-infra]({{site.url}}/assets/indian-ecommerce/crawler-infra.png "Crawler Infrastructure")
 
