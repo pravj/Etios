@@ -211,21 +211,7 @@ A nice explanation of the *phantom cars* is available [here](http://motherboard.
 
 ### People don't solve a problem until they get one
 
-Let me insert a story here.
-
-It was my first day of the recent intern. I was sitting along at my place, waiting for someone to join me or at least talk to me. Then I started reading Myntra's engineering blog to kill my time. The very first post was from the React fame *Sunil Pai*, [Personal thoughts on the shutdown of the myntra.com website](http://myntra.github.io/2015/05/17/personal-thoughts-on-the-shutdown-of-the-myntra-website/).
-
-There was this phrase that caught my attention.
-
-> Imagine being DDOSed by every mobile device on the planet.
-
-Voila, I got my work. I designed a *reverse proxy* based layer to detect the DDoS. I'm still not sure that if it would have worked or not, but doing that was exciting.
-
-And then I showed the solution to my manager. He ignored it, right on my face, without even listening to me.
-
-Maybe because he wasn't really facing such problem (DDoS) that time, it wasn't in the roadmap there. But they will have to work on it when they will face an attack.
-
-Similarly, this simulated user interaction is wrong to the system. Can be easily converted into a *service denial*.
+This simulated user interaction is wrong to the system. Can be easily converted into a *service denial*.
 
 In my case, I was changing the user(simulated) location frequently, so fast that a human can't reach there in a fraction of second (traversing whole Bangalore in 3 minutes).
 

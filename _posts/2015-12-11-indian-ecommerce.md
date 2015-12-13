@@ -193,7 +193,7 @@ This is something I found suspicious when I was looking in the dataset for order
 
 This picture shows products in a shipment which contains shoes only, of similar types.
 
-Although it's exactly how the selling process works, you buy from someone and sell to someone. But in this case, it seems weird to me.
+Although it's exactly how the selling process works, you buy from a person and sell to someone else. But in this case, it seems weird to me.
 
 I thought 'online shopping services' are just adjacent node to us on the *Internet Services Graph* and this is how people use it. This indicates towards the existence of a community which is still away from the Internet, its benefits and is being cheated. Cheating in the sense that shopkeepers may buy from online services during sales and then sell them at relatively high prices to local customers.
 
